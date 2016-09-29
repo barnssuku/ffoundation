@@ -1,0 +1,90 @@
+@font-face {
+    font-family: si;
+    src: url(../images/socicon_header/soc_headericon.eot);
+    src: url(../images/socicon_header/soc_headericon.eot?#iefix) format(embedded-opentype),
+         url(../images/socicon_header/soc_headericon.woff) format(woff),
+         url(../images/socicon_header/soc_headericon.ttf) format(truetype),
+         url(../images/socicon_header/soc_headericon.svg#icomoonregular) format(svg);
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+@font-face{
+    font-family: si;
+    src: url(../fonts/soc_headericon.ttf);
+} 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: ;
+        src: url(../images/socicon_header/soc_headericon.svg) format(svg);
+    }
+}
+
+.soc_header {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc_header li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc_header li a {
+    font-family: si; /*!important;*/
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 17px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+    color: #f1950d;
+    background-color: #ffffff;
+}
+
+.soc_header-icon-last{
+    margin:0 !important;
+}
+
+.soc_header-facebook:before {
+    content:'b';
+}
+.soc_header-twitter:before {
+    content:'a';
+}
+.soc_header-youtube:before {
+    content:'r';
+}
+.soc_header-instagram:before {
+    content:'x';
+}
